@@ -1,0 +1,3 @@
+Task 5: Model Performance Discussion
+Pretrained models usually perform better than models trained from scratch because they are already trained on very large image datasets. They have already learned basic visual features such as edges, shapes, and colors. A model trained from scratch must learn all these features from the beginning using only the smaller dataset provided and on very few epochs.
+Transfer learning worked very well for this dataset. The results show that the pretrained ResNet18 model achieved 96.44% accuracy, while the basic CNN trained from scratch achieved only 65.33% accuracy. Using pretrained weights helped the model classify the AQI images much more accurately.
